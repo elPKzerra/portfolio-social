@@ -56,7 +56,7 @@ a {
 }
 .light .sun button{
   animation: slide-in 0.2s forwards;
-  background: url(/img/moon-stars.svg) no-repeat center;
+  background: url(../img/moon-stars.svg) no-repeat center;
 }
 .sun button:hover {
   outline: 1px solid rgb(82, 74, 150);
@@ -148,12 +148,12 @@ footer{
 }
 @media(min-width: 700px){
   body {
-    background: url(/img/bg-desktop-light.jpg) no-repeat top center/cover;
+    background: url(../img/bg-desktop-light.jpg) no-repeat top center/cover;
 
   }
 }
 .light body{
-  background: url(/img/bg-desktop.jpg) no-repeat top center/cover;
+  background: url(../img/bg-desktop.jpg) no-repeat top center/cover;
 }
 @keyframes slide-in{
   from{
